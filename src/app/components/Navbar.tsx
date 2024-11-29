@@ -10,6 +10,7 @@ function Navbar() {
       <header className="navbar-header">
         {/* Logo and Text */}
         <div className="navbar-logo">
+          <Link href={'/'}className="navbar-logo">
           <Image 
             src="/images/d-logo-2.png"
             alt="Logo Image"
@@ -17,6 +18,7 @@ function Navbar() {
             height={25}
           />
           <span className="navbar-logo-text">arakhshan</span>
+          </Link>
         </div>
 
         {/* Navigation Links */}
