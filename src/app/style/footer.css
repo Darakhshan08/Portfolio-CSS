@@ -1,0 +1,103 @@
+/* Footer Container */
+.footer-container {
+    background-color: #191624;
+    width: 100%;
+  }
+  
+  /* Footer */
+  .footer {
+    width: 100%;
+    border-top: 1px solid #4b5563; /* Gray-700 */
+    margin-top: 0;
+  }
+  
+  /* Footer Inner Wrapper */
+  .footer-inner {
+    max-width: 1120px; /* Equivalent to Tailwind's max-w-7xl */
+    margin: 0 auto;
+    padding: 2rem 1rem; /* Equivalent to px-4 py-8 */
+  }
+  
+  /* Top Section */
+  .footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Logo Section */
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.46rem; /* Equivalent to text-2xl */
+    font-weight: bold;
+    color: #f97316; /* Orange-500 */
+  }
+  
+  .footer-logo span {
+    margin-left: 0.1rem;
+  }
+  
+  /* Contact Info */
+  .footer-contact {
+    color: #d1d5db; /* Gray-300 */
+  }
+  
+  /* Social Icons */
+  .footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .footer-icon {
+    font-size: 1.25rem; /* Equivalent to w-5 h-5 */
+    color: #d1d5db; /* Gray-300 */
+    transition: color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .footer-icon:hover {
+    color: #f97316; /* Orange-500 */
+  }
+  
+  /* Bottom Section */
+  .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem; /* Equivalent to mt-8 */
+    padding-top: 2rem; /* Equivalent to pt-8 */
+    border-top: 1px solid #4b5563; /* Gray-700 */
+  }
+  
+  /* Navigation Links */
+  .footer-nav {
+    display: flex;
+    gap: 2rem; /* Equivalent to gap-8 */
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    color: #d1d5db; /* Gray-300 */
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #f97316; /* Orange-500 */
+  }
+  
+  /* Credits */
+  .footer-credits {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Equivalent to gap-2 */
+    color: #d1d5db; /* Gray-300 */
+  }
+  
+  .footer-coffee {
+    font-size: 1rem; /* Equivalent to w-4 h-4 */
+    color: #f97316; /* Orange-500 */
+  }
+  

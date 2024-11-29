@@ -1,0 +1,68 @@
+/* Navbar Container */
+.navbar-container {
+    background-color: #191624;
+    width: 100%;
+  }
+  
+  /* Header */
+  .navbar-header {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures logo, links, and icons are spaced apart */
+  }
+  
+  /* Logo Section */
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .navbar-logo-text {
+    font-size: 1.46rem; /* 2xl */
+    font-weight: bold;
+    /* color: #ff8c00; Orange-500 */
+    color: #f97316;
+    margin-left: 0.0rem;
+  }
+  
+  /* Navigation Links */
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem; /* Adjust spacing between links */
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #f97316; /* Orange-500 */
+  }
+  
+  /* Social Media Icons */
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Adjust spacing between icons */
+  }
+  
+  .navbar-icon {
+    font-size: 1.25rem; /* Icon size */
+    color: #d1d5db; /* Gray-300 */
+    transition: color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .navbar-icon:hover {
+    color: #f97316; /* Orange-500 */
+  }
+  

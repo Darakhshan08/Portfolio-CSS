@@ -1,0 +1,90 @@
+/* General Container */
+.portfolio-container {
+  width: 100%;
+  background-color: #191624;
+  color: white;
+  min-height: 100vh;
+}
+
+/* Main Content */
+.portfolio-main {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Section */
+.portfolio-section {
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column; /* Stack vertically on small screens */
+  align-items: center;
+  justify-content: space-between; /* Space between text and image */
+}
+
+@media (min-width: 768px) {
+  .portfolio-section {
+    flex-direction: row; /* Side-by-side on large screens */
+  }
+}
+
+/* Text Content */
+.portfolio-text {
+  margin-bottom: 2rem;
+  text-align: center; /* Center text on small screens */
+}
+
+@media (min-width: 768px) {
+  .portfolio-text {
+    margin-bottom: 0;
+    text-align: left; /* Align text to the left on large screens */
+  }
+}
+
+/* Heading */
+.portfolio-heading {
+  font-size: 1.875rem; /* 3xl */
+  font-weight: bold;
+  margin: 0; /* No extra margins */
+  line-height: 1.0; /* Tighter line spacing */
+}
+
+@media (min-width: 768px) {
+  .portfolio-heading {
+    font-size: 3.125rem; /* 5xl */
+  }
+}
+
+/* Highlighted Name */
+.portfolio-name {
+  color: #f97316; /* Orange-500 */
+  font-weight: bold;
+}
+
+/* Image Container */
+.portfolio-image-container {
+  position: relative;
+}
+
+.portfolio-image-wrapper {
+  width: 15rem; /* 60 */
+  height: 15rem;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #f97316;
+}
+
+@media (min-width: 768px) {
+  .portfolio-image-wrapper {
+    width: 20rem; /* 80 */
+    height: 20rem;
+  }
+}
+
+/* Profile Image */
+.portfolio-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

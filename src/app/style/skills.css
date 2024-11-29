@@ -1,0 +1,37 @@
+/* Section styling */
+.skills-section {
+    padding: 5rem 0; /* 20 units */
+    text-align: center;
+    background-color: #191624;
+    color: white;
+  }
+  
+  /* Heading styles */
+  .skills-heading {
+    font-size: 1.875rem; /* 3xl */
+    font-weight: bold;
+    margin-bottom: 1rem; /* 4 units */
+  }
+  
+  /* Subheading styles */
+  .skills-subheading {
+    color: #b0b0b0; /* Gray-300 equivalent */
+    margin-bottom: 3rem; /* 12 units */
+  }
+  
+  /* Grid styles */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 3rem; /* 12 units */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Icon styles */
+  .skills-icon {
+    width: 4rem; /* 16 units */
+    height: 4rem; /* 16 units */
+    object-fit: cover;
+  }
+  
