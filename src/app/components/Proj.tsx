@@ -12,7 +12,7 @@ function proj() {
         <div className="projects-grid">
           {/* First Div */}
           <div className="project-card">
-            <img
+            <Image
               src="/images/home1.png"
               alt="E-commerce Platform"
               className="project-image"
@@ -42,7 +42,7 @@ function proj() {
 
           {/* Second Div */}
           <div className="project-card">
-            <img
+            <Image
               src="/images/clon-1.png"
               alt="eBay Home Page Clone"
               className="project-image"
@@ -71,7 +71,7 @@ function proj() {
 
           {/* Third Div */}
           <div className="project-card">
-            <img
+            <Image
               src="/images/dash.png"
               alt="React Flowbite Dashboard Clone"
               className="project-image"
